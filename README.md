@@ -19,3 +19,8 @@ c) plane In Hough transform,
 2.	The accumulator function takes two parameters, the binarized image and the threshold value
 3.	For a pixel (x, y), the ρ value is calculated using 
 
+ρ = x*cos(θ) + y*sin(θ)
+
+If height of the image is h and the width of the image is w, then for all  0 ≤ θ ≤ 180, the value of ρ varies from -√(h2+w2) to √(h2+w2)
+such that
+
