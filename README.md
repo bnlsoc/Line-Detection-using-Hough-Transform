@@ -11,9 +11,9 @@ c) plane In Hough transform,
 
 
 #### Algorithm:
-<b>Step 1:</b> Convert the input image to grayscale
-<b>Step 2:</b> Get a binarized image through canny edge detection
-<b>Step 3:</b> Implement Hough Transform using the accumulator function
+<b>Step 1:</b> Convert the input image to grayscale <br>
+<b>Step 2:</b> Get a binarized image through canny edge detection <br>
+<b>Step 3:</b> Implement Hough Transform using the accumulator function <br>
 
 1.	For Hough transform, pass the binarized image and a threshold value to the accumulator function.
 2.	The accumulator function takes two parameters, the binarized image and the threshold value
